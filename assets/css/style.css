@@ -1,0 +1,116 @@
+html{
+    background-image: url(../IllustrationsLogo/Allpages/arrière_plan.png);
+    background-size: 1920px 3943px;
+    background-position: center;
+    margin: 0;
+}
+
+:root{
+    --white-color: #FFFFFF;
+    --pink1-color: #F2CEF2;
+    --greypurple-color: #9E91B7;
+    --pink-color: #DF99F2;
+    --purple-color: #3D2DA6;
+    --blue-color: #07338C;
+    --blue1-color: #021740;
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../police/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../police/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'Wakandaforever';
+    src: url(../police/WakandaForever-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../police/Cantarell-Regular.ttf);
+}
+#tete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul a{
+    color: var(--white-color);
+    margin-left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: var(--purple-color);
+    text-decoration: underline;
+}
+/*Section hero*/
+#hero{
+    background-image: url(../IllustrationsLogo/Accueil/Pantherhome1..png);
+    height: 1000px;
+    background-position: right 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-top: -100px;
+}
+#hero h1{
+    color: var(--greypurple-color);
+    font-family: 'panthera';
+    font-size: 68px;
+    margin-left: 70px;
+    margin-top: 340px;
+}
+#hero h2{
+    color: var(--greypurple-color);
+    font-size: 32px;
+    margin-left: 70px;
+}
+#hero p{
+    color: var(--white-color);
+    font-size: 16px;
+    margin-right: 1200px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+/*Section hero1*/
+#hero1{
+    background-image: url(../IllustrationsLogo/Wakanda/Pantherwakanda1.png);
+    height: 1000px;
+    background-size: 2110px 1131px;
+    background-position: center;
+    margin-top: -50px;
+}
+#hero1 h1{
+    color: var(--greypurple-color);
+    font-size: 68px;
+    margin-left: 30px;
+}
+#hero1 h2{
+    color: var(--greypurple-color);
+    font-size: 32px;
+    margin-left: 30px;
+    margin-top: 280px;
+}
+#hero1 p{
+    color: var(--white-color);
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 1100px;
+    text-align: justify;
+}
