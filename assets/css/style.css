@@ -13,6 +13,7 @@ html{
     --purple-color: #3D2DA6;
     --blue-color: #07338C;
     --blue1-color: #021740;
+    --black-color: #000;
 }
 
 @font-face {
@@ -52,11 +53,12 @@ ul{
 nav ul a{
     color: var(--white-color);
     margin-left: 150px;
+    font-family: 'BEYNO';
     font-size: 30px;
     text-decoration: none;
 }
 nav ul a:hover{
-    color: var(--purple-color);
+    color: var(--greypurple-color);
     text-decoration: underline;
 }
 /*Section hero*/
@@ -68,6 +70,15 @@ nav ul a:hover{
     background-position-x: right;
     margin-top: -100px;
 }
+#hero .plus{
+    display: inline;
+    text-align: start;
+    color: var(--white-color);
+    font-family: 'Cantarell';
+    font-size: 16px;
+    align-self: flex-start;
+    margin-left: 70px;
+}
 #hero h1{
     color: var(--greypurple-color);
     font-family: 'panthera';
@@ -77,40 +88,152 @@ nav ul a:hover{
 }
 #hero h2{
     color: var(--greypurple-color);
+    font-family: 'BEYNO';
     font-size: 32px;
     margin-left: 70px;
 }
 #hero p{
     color: var(--white-color);
+    font-family: 'Cantarell';
     font-size: 16px;
     margin-right: 1200px;
     margin-left: 70px;
     text-align: justify;
 }
 
-/*Section hero1*/
-#hero1{
+/*wakanda*/
+#wakan{
     background-image: url(../IllustrationsLogo/Wakanda/Pantherwakanda1.png);
-    height: 1000px;
-    background-size: 2110px 1131px;
     background-position: center;
-    margin-top: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -60px;
 }
-#hero1 h1{
+#wakan .wakata{
     color: var(--greypurple-color);
+    font-family: 'Panthera';
     font-size: 68px;
-    margin-left: 30px;
+    margin-left: 70px;
 }
-#hero1 h2{
+#wakan .wakati{
     color: var(--greypurple-color);
+    font-family: 'wakandaforever';
     font-size: 32px;
-    margin-left: 30px;
-    margin-top: 280px;
+    margin-left: 70px;
 }
-#hero1 p{
+#wakan .wakal{
+    align-items: normal;
+    position: absolute;
+    margin-top: 350px;
+}
+#wakan p{
     color: var(--white-color);
     font-size: 16px;
-    margin-left: 30px;
+    margin-left: 70px;
     margin-right: 1100px;
     text-align: justify;
+}
+
+/*Design de la partie Killmonger et Okoye*/
+#kiloko {
+    background-color: var(--blue1-color);
+    margin-left: 0px;
+    margin-right: -20px;
+}
+  
+  .content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .image, .text, .voir{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .text {
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .image {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .voir{
+    display: inline;
+    text-align: start;
+    color: var(--white-color);
+    font-family: 'Cantarell';
+    font-size: 16px;
+    align-self: flex-start;
+  }
+  h2{
+    color: var(--greypurple-color);
+    font-family: 'BEYNO';
+    font-size: 32px;
+  }
+  p{
+    color: var(--white-color);
+    font-family: 'Cantarell';
+    font-size: 16px;
+    text-align: justify;
+  }
+
+/*Design de la partie naissance d'un prince*/
+#prince{
+    margin-left: 70px;
+    margin-right: 800px;
+    text-align: justify;
+}
+
+/*Design de la partie T'Challa*/
+#challa{
+    background-color: var(--white-color);
+    border:#FFFFFF;
+    background-position: right;
+    background-size: auto 30%;
+    border-radius: 10px;
+    margin-left: 1000px;
+    margin-top: -1650px;
+    margin-right: 100px;
+    align-items: center;
+    padding: 50px;
+}
+#challa .sary{
+    text-align: center;
+}
+#challa .kala{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+#challa .kala .btn{
+    color: var(--white-color);
+    background: var(--blue-color);
+    background-size: contain;
+    border: var(--blue-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#challa .ikala span{
+    font-weight: bold;
+}
+#challa p{
+    color: var(--blue1-color);
+}
+#challa h2{
+    color: var(--black-color);
+    font-family: 'cantarell';
+    text-align: center;
+}
+#mimi{
+    margin-left: 1100px;
+    margin-top: 60px;
 }
