@@ -194,9 +194,10 @@ nav ul a:hover{
 #challa{
     background-color: var(--white-color);
     border:#FFFFFF;
+    border-image-slice: fill;
     background-position: right;
     background-size: auto 30%;
-    border-radius: 10px;
+    border-radius: 38px;
     margin-left: 1000px;
     margin-top: -1650px;
     margin-right: 100px;
@@ -237,3 +238,211 @@ nav ul a:hover{
     margin-left: 1100px;
     margin-top: 60px;
 }
+
+
+.contact{
+    background-image: url(../IllustrationsLogo/Accueil/Pantherhome7.png);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-y: center;
+    height: 999px;
+    width: 100%;
+    margin-left: -9px;
+    margin-right: -20px;
+    margin-bottom: -300px;
+}
+.contact .kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #FFFFFF, #ffffffa6);
+    background-position: fixed;
+    margin-top: 300px;
+    opacity: 0.8;
+    border-radius: 38px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    margin-top: 100px;
+  }
+.contact div{
+    margin: 0px;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  .fenoina {
+    width: 100%; 
+    max-width: 400px; 
+  }
+  
+  /* Style pour les éléments input */
+  .fenoina input {
+    size: 520px 56px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid var(--blue1-color);
+    border-radius: 38px;
+  }
+  .fenoina textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--blue1-color);
+    border-radius: 38px;
+    height: 200px;
+  }
+  .fenoina input::placeholder{
+    color: var(--blue1-color);
+  }
+  .fenoina textarea::placeholder{
+    color: var(--blue1-color);
+  }
+  .fenoina button {
+    background: rgb(245, 206, 238);
+    size: 174px 54px;
+    color: var(--blue1-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer;
+  }
+  
+  .contact h4{
+    margin: 20px 0;
+  }
+  .contact h2{
+    margin: 10px 0;
+    font-family: 'cantarell';
+    font-size: 32px;
+    color: var(--blue1-color);
+  }
+
+/*Design du footer*/
+#tongo{
+    background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -8px;
+    margin-right: -10px;
+}
+#tongo {
+  text-align: center;
+}
+.image-cont {
+  display: inline-block;
+  position: relative;
+  left: -650px;
+  top: 150px;
+  bottom: 150px;
+}
+
+.image-cont img {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-cont img:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.soratra {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.soira {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  margin-right: 440px;
+}
+
+.soira img {
+  max-width: 100%;
+  margin-right: 30px;
+}
+
+
+  .soratra .sora{
+    margin-left: 500px;
+    color: var(--white-color);
+    font-family: 'cantarell';
+    font-size: 22px;
+    letter-spacing: 28%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .soratra nav ul a{
+        font-family: 'cantarell';
+        font-size: 16px;
+        margin-left: -760px;
+        position: relative;
+    }
+  .soratra .siora{
+        margin-top: -120px;
+        margin-left: 1000px;
+        color: var(--white-color);
+        font-family: 'cantarell';
+        font-size: 22px;
+        letter-spacing: 28%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+  }
+  .soratra .soira{
+    margin-left: 1000px;
+  }
+
+  .mila {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+.mila p {
+  font-size: 10px;
+    display: inline;
+    margin: 0;
+    margin-left: -600px;
+}
+
+.mila nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+  }
+
+.mila nav li {
+    margin: 0;
+    margin-left: 400px;
+    margin-top: -35px;
+  }
+
+.mila nav li a {
+    font-family: 'cantarell';
+    font-size: 10px;
+    text-decoration: none;
+    color: var(--white-color);
+    margin-bottom: -150px;
+  }
+
+
+.mila nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
