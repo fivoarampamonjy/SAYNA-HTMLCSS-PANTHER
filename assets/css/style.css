@@ -137,6 +137,32 @@ nav ul a:hover{
     text-align: justify;
 }
 
+#koto{
+  background-image: url(../IllustrationsLogo/Wakanda/Pantherwakanda2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  margin-top: -80px;
+}
+
+#nandra{
+  margin-top: -920px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 80px;
+}
+#nandra .colonne1{
+  margin-right: 850px;
+}
+#nandra .colonne2{
+  margin-left: 850px;
+  margin-top: -1885px;
+}
+#nandra .colonne2 img{
+  margin-left: 70px;
+}
+
 /*Design de la partie Killmonger et Okoye*/
 #kiloko {
     background-color: var(--blue1-color);
@@ -321,12 +347,37 @@ nav ul a:hover{
     color: var(--blue1-color);
   }
 
+/*Design de l'enigme*/
+#defi{
+  background-image: url(../IllustrationsLogo/Enigme/Pantherenigme1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 1484px;
+  width: 1279px;
+  margin-top: -400px;
+}
+#malala{
+  color: var(--white-color);
+  margin-left: 1050px;
+  margin-right: 70px;
+  margin-top: -900px;
+}
+#malala h1{
+  font-family: 'BEYNO';
+  font-size: 68px;
+  color: var(--greypurple-color);
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 /*Design du footer*/
 #tongo{
     background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position:static;
     margin-left: -8px;
     margin-right: -10px;
 }
