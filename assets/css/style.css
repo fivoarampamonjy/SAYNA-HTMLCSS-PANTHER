@@ -358,16 +358,103 @@ nav ul a:hover{
 }
 #malala{
   color: var(--white-color);
-  margin-left: 1050px;
+  margin-left: 900px;
   margin-right: 70px;
-  margin-top: -900px;
+  margin-top: -950px;
 }
 #malala h1{
   font-family: 'BEYNO';
   font-size: 68px;
   color: var(--greypurple-color);
+  text-align: justify;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+#malala .ankas{
+  margin-top: 100px;
+}
+#malala img{
+  margin-right: 70px;
+}
+#malala .vedi{
+  margin-top: -320px;
+  margin-right: 80px;
+}
+#malala p{
+  margin-left: 95px;
+  margin-right: 60px;
+  font-size: 14px;
+}
+#malala .doko{
+  margin-top: 110px;
+}
+
+#lalao{
+  margin-left: 70px;
+}
+#lalao h2{
+  font-family: 'wakandaforever';
+  font-size: 43px;
+  margin-right: 700px;
+}
+#lalao .kaelo{
+  margin-left: 900px;
+  margin-right: 180px;
+  margin-top: 150px;
+}
+#lalao .moignon{
+  text-align: center;
+}
+#lalao .kaopy{
+  margin-left: 820px;
+  margin-top: -300px;
+}
+#lalao .reko{
+  margin-top: -400px;
+  margin-bottom: 200px;
+  color: var(--white-color);
+  font-family: 'cantarell';
+}
+#lalao .reko span{
+  font-family: 'wakandaforever';
+}
+#lalao .bekoto{
+  color: var(--white-color);
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  width: 100%; 
+  max-width: 400px;
+}
+#lalao .bekoto input{
+  size: 520px 56px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid var(--white-color);
+  border-radius: 38px;
+  background: transparent;
+}
+#lalao .bekoto input::placeholder{
+  margin-left: 10px;
+  color: var(--white-color);
+}
+#lalao .bekoto button{
+  background: rgb(245, 206, 238);
+  size: 74px 54px;
+  color: var(--blue1-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-right: 90px;
+  box-shadow: ;
+}
+#lalao .bekoto button:hover{
+  box-shadow: 3px 3px 5px #021740;
+}
+#lalao .bekoto label, .bekoto input, .bekoto button{
+  margin: 5px;
 }
 
 
