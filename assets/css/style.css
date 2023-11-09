@@ -35,6 +35,7 @@ html{
     font-family: 'Cantarell';
     src: url(../police/Cantarell-Regular.ttf);
 }
+
 #tete{
     display: flex;
     align-items: center;
@@ -57,10 +58,12 @@ nav ul a{
     font-size: 30px;
     text-decoration: none;
 }
+
 nav ul a:hover{
     color: var(--greypurple-color);
     text-decoration: underline;
 }
+
 /*Section hero*/
 #hero{
     background-image: url(../IllustrationsLogo/Accueil/Pantherhome1..png);
@@ -99,6 +102,46 @@ nav ul a:hover{
     margin-right: 1200px;
     margin-left: 70px;
     text-align: justify;
+}
+
+.tsipika-lava{
+  content: "";
+  border-left: 8px solid var(--greypurple-color);
+  position: fixed;
+  top: 0;
+  width: 5px;
+  height: 57%;
+  left: 19px;
+}
+
+.tsipika-fohy{
+  content: "";
+  border-left: 8px solid var(--greypurple-color);
+  position: fixed;
+  top: 0;
+  width: 5px;
+  height: 40%;
+  left: 39px;
+}
+/*réseaux sociaux*/
+#sauce {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -40px;
+}
+
+.volabe nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.volabe nav a {
+  margin-bottom: 10px;
+}
+.volabe nav a:hover{
+  zoom: 130%;
+  filter: #fff;
 }
 
 /*wakanda*/
@@ -154,6 +197,9 @@ nav ul a:hover{
 }
 #nandra .colonne1{
   margin-right: 850px;
+}
+#nandra .colonne1 .vodoau{
+  margin-left: 20px;
 }
 #nandra .colonne2{
   margin-left: 850px;
@@ -295,6 +341,10 @@ nav ul a:hover{
     padding: 20px;
     margin-top: 100px;
   }
+.contact .kontakt .lakana{
+  margin-left: 10px;
+  margin-right: -20px;
+}
 .contact div{
     margin: 0px;
     margin-left: 400px;
@@ -336,7 +386,10 @@ nav ul a:hover{
     border-radius: 38px;
     cursor: pointer;
   }
-  
+  .fenoina button:hover{
+    box-shadow: 3px 3px 20px var(--blue1-color);
+  }
+
   .contact h4{
     margin: 20px 0;
   }
@@ -448,10 +501,9 @@ nav ul a:hover{
   cursor: pointer;
   margin-left: 90px;
   margin-right: 90px;
-  box-shadow: ;
 }
 #lalao .bekoto button:hover{
-  box-shadow: 3px 3px 5px #021740;
+  box-shadow: 3px 3px 20px var(--blue1-color);
 }
 #lalao .bekoto label, .bekoto input, .bekoto button{
   margin: 5px;
@@ -508,7 +560,9 @@ nav ul a:hover{
   max-width: 100%;
   margin-right: 30px;
 }
-
+.soira img:hover{
+  zoom: 110%;
+}
 
   .soratra .sora{
     margin-left: 500px;
